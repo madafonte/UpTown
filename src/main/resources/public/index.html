@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UpTown - Gestão do Marketplace</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="brand">UP<span>TOWN</span></div>
+      <nav id="nav">
+        <a href="#dashboard" data-view="dashboard">Dashboard</a>
+        <a href="#consultas" data-view="consultas">Consultas</a>
+        <div class="nav-title">Cadastros</div>
+        <a href="#clientes" data-view="clientes">Clientes</a>
+        <a href="#fornecedores" data-view="fornecedores">Fornecedores</a>
+        <a href="#categorias" data-view="categorias">Categorias</a>
+        <div class="nav-title">Vendas</div>
+        <a href="#pedidos" data-view="pedidos">Pedidos</a>
+        <a href="#catalogo" data-view="catalogo">Catálogo de roupas</a>
+        <div class="nav-title">Banco de dados</div>
+        <a href="#rotinas" data-view="rotinas">Funções e procedimentos</a>
+        <a href="#auditoria" data-view="auditoria">Auditoria (trigger)</a>
+      </nav>
+      <div class="sidebar-foot">Banco de Dados · Etapa 6<br>Java + JDBC + MySQL</div>
+    </aside>
+    <main id="main" class="main"></main>
+  </div>
+  <div id="toasts" class="toasts" aria-live="polite"></div>
+  <dialog id="modal"></dialog>
+  <script src="lib/chart.umd.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
